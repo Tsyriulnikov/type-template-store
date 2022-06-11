@@ -12,7 +12,7 @@ const getTodosThunk = createAsyncThunk(
 
 export const todoSlice = createSlice({
     name: 'todos',
-initialState:{
+    initialState:{
         items:[
             {id:'1', addedDate:'10.06.2022',order:1, title:'First todo'}
         ] as TodolistType[]
