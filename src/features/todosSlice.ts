@@ -28,5 +28,9 @@ export const todoSlice = createSlice({
         })
     }
 })
+//то что отдаём наружу
 export const todosReducer = todoSlice.reducer
 export const {addTodo}= todoSlice.actions
+export const todoThunks = {
+    getTodosThunk
+}
